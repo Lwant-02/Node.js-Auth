@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "NODE_ENV=development nodemon main.js",
     "start": "NODE_ENV=production node main.js",
-    "build": "npm install && npm install --prefix ../client && npm run build --prefix ../client"
+    "build": "npm install && npm install --prefix ../frontend && npm run build --prefix ../frontend"
   },
   "keywords": [],
   "author": "",
